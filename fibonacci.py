@@ -74,7 +74,7 @@ class SummableSequence(object):
 
         # Main logic calculating generalized fibonacci number (n = 3)
         else:
-            for i in range(0, i):
+            for i in range(2, i):
                 c = self.first + self.second + self.third
                 self.first = self.second
                 self.second = self.third
