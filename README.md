@@ -2,7 +2,7 @@
 
 Replace these with your own build badges!
 
-[![Build Status](https://travis-ci.com/csci-e-29-dev/pset-0-starter.svg?token=aaaaa&branch=master)](https://travis-ci.com/csci-e-29-dev/pset-0-starter)
+[![Build Status](https://travis-ci.com/csci-e-29/2019fa-pset-0-patchcasey.svg?token=5ichzqk8s8tsSTcNuNkm&branch=master)](https://travis-ci.com/csci-e-29/2019fa-pset-0-patchcasey)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/62d045e36b9fc9d8fb3f/maintainability)](https://codeclimate.com/repos/5d70863df9b2fb0176005b52/maintainability)
 
