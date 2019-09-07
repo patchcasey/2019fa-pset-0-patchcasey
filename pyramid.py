@@ -7,6 +7,7 @@
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from math import ceil
 
+
 def print_pyramid(rows):
     """Main start of function
 

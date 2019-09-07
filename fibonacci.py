@@ -5,6 +5,7 @@
 # Submitted by Casey Patch on 9/4/2019
 ########################################################################################################################
 
+
 def last_8(some_int):
     """return last 8 of an integer
 
@@ -12,6 +13,7 @@ def last_8(some_int):
     :return: int
     """
     return int(str(some_int)[-8:])
+
 
 def optimized_fibonacci(f):
     """calculate f-th member of the fibonacci sequence
@@ -49,8 +51,8 @@ class SummableSequence(object):
         :param initial: iterable
         """
         if len(initial) != 3:
-            raise TypeError(initial, 'is not of correct length!')
-        #TODO - iterate over each and make sure it's an integer
+            raise TypeError(initial, "is not of correct length!")
+        # TODO - iterate over each and make sure it's an integer
         self.initial = initial
         self.first = self.initial[0]
         self.second = self.initial[1]
