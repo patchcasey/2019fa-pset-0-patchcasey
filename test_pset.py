@@ -83,6 +83,15 @@ class FibTests(TestCase):
                 self.assertEqual(ss(n), expected)
                 ss = SummableSequence(0, 1, 2)
 
+    def test_last8(self):
+        for n, expected in [
+            (1234567890, 34567890),
+            (1,1),
+            (12345678,12345678)
+        ]:
+            with timeout(message="Timeout running f({})".format(n)):
+                self.assertEqual(last_8(n), expected)
+
 
 class TestTimeout(TestCase):
     def test_timeout(self):

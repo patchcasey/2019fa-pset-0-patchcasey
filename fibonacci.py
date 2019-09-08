@@ -12,6 +12,10 @@ def last_8(some_int):
     :param some_int: int
     :return: int
     """
+    try:
+        val = int(some_int)
+    except ValueError:
+        print("input must be int")
     return int(str(some_int)[-8:])
 
 
